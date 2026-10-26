@@ -16,3 +16,8 @@ html,body{overflow-x:clip}.hero-title h1{padding-bottom:.05em}.hero-top span:las
 .page-title:after{content:"UH"}.hero-side-label{display:none}
 
 .case-grid article{min-width:0}.case-grid h3,.case-grid p{overflow-wrap:anywhere}.brand-credit{font-size:9px;letter-spacing:1.7px;color:#8c8c81}.brand-credit b{font-weight:500;color:#b0b0a2}
+/* Keep long CMS text within the original layouts. */
+.hero-bottom p,.service>div,.detail-layout>div,.contact-grid>div{min-width:0}
+[data-content],[data-service],.service-details .lead,[data-address]{overflow-wrap:anywhere}
+#message-output{min-height:180px}
+@media(max-width:640px){.hero-bottom p{max-width:100%}.page-title h1{overflow-wrap:anywhere}}
