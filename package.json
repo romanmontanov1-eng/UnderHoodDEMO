@@ -1,0 +1,16 @@
+{
+  "name": "gt-detailing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/compile.mjs && bash scripts/build.sh",
+    "validate": "node scripts/validate-artifact.mjs",
+    "dev": "node scripts/preview.mjs",
+    "check": "node scripts/check.mjs",
+    "start": "node render/server.mjs",
+    "check:render": "node scripts/check-render.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
